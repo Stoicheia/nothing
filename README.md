@@ -6,9 +6,9 @@ As follows:
 | Task  | Description | Rate | Estimated Work Hours | Subtotal |
 | ------------- | ------------- |  ------------- |  ------------- |  ------------- |
 | **Research and Preproduction** | etc |  $9/hr |  32 (completed) | $288 |
-| **Production** | etc | $18/hr | 13 x 8 = 104 | $1872 |
+| **Production** | etc | $18/hr | 15 x 8 = 120 | $2160 |
 | **ChatGPT Plus Subscription** | etc | $20/month | - | $20 |
-| **Subtotal** | - | - | - | **$2180** |
+| **Subtotal** | - | - | - | **$2468** |
 
 ## Stretch Goal
 | Task  | Description | Rate | Estimated Work Hours | Subtotal |

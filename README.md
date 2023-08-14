@@ -39,7 +39,9 @@ By updating only parts of mod files that correspond to parts of the Aseprite fil
 - Compress the folder into a zip file, maybe do some extra steps to convert the zip file into a file with a custom extension?
 - To deserialize, reverse this process.
 
-
+### Optimisations
+- Texture2D creation operations should be minimised as much as possible. All draw/combine operations should act on color arrays until the final step.
+- The game should do its best to guess when to pre-load and release fighter data. Garbage collection should be called manually during non-core gameplay.
 
 
 ## Rates and Estimations

@@ -30,7 +30,7 @@ By updating only parts of mod files that correspond to parts of the Aseprite fil
 - Look into UnityWebRequestTexture.GetTexture() (https://docs.unity3d.com/ScriptReference/Networking.UnityWebRequestTexture.GetTexture.html)
 
 ### Aseprite Workflow Optimisation
-- A dirty flag on Aseprite chunks/frames could somehow be set to determine which chunks/frames to regenerate, and which ones to simply read off the old AseFile object.
+- A dirty flag on Aseprite chunks/frames could somehow be set to determine which chunks/frames to regenerate, and which ones to simply read off the old AseFile object. Dirty flagging can be simulated via other means if the Aseprite file doesn't contain such information. (e.g. simply compare subarrays)
 - Some continuous integration architecture so that remote (dropbox) changes are immediately reflected in the Unity editor/in the build (not sure how hard this is).
 
 ### Serialization

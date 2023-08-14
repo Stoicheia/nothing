@@ -20,27 +20,21 @@ The aim is to extend the existing Aseprite-Unity asset pipeline so that Aseprite
 ## Stretch Goal: Partial Importing
 By updating only parts of mod files that correspond to parts of the Aseprite file that were actually updated, the mod creation process can be sped up significantly.
 
-## Plan
-### Serialization
-Aseprite files will be interpreted as usable, primitive data, and serialized somewhere as a custom mod file using the binary Odin Serializer. Each mod file corresponds to the animation data of a character, and mod files are grouped into zip files corresponding to *mod packs* - one mod pack per developer.
-
-### Asset Creation
-Object that can only be created on the main thead (e.g. Texture2D) will be incrementally constructed in coroutines.
-
-### Partial Importing
+## Plan Document
+https://docs.google.com/document/d/1o0vrmomy3pfbtFl6g2VF1sUfjLHOEF5aT1rMsNhWL8w/edit#heading=h.semwu4p4dyis
 
 ## Rates and Estimations
 ### Main Task
-| Task  | Description | Rate | Estimated Working Days | Subtotal |
-| ------------- | ------------- |  ------------- |  ------------- |  ------------- |
-| **Research and Preproduction** | etc |  $9/hr |  4 (32hrs, completed) | $288 |
-| **Production** | etc | $18/hr | 13 (104hrs) | $1872 |
-| **ChatGPT Plus Subscription** | etc | $20/month | - | $20 |
-| **Subtotal** | - | - | - | **$2190** |
+| Task | Rate | Estimated Working Days | Subtotal |
+| ------------- |  ------------- |  ------------- |  ------------- |
+| **Research and Preproduction** |  $9/hr |  4 (32hrs, completed) | $288 |
+| **Production**  | $18/hr | 13 (104hrs) | $1872 |
+| **ChatGPT Plus Subscription**  | $20/month | - | $20 |
+| **Subtotal**| - | - | **$2190** |
 
-### Stretch Goal
-| Task  | Description | Rate | Estimated Working Days | Subtotal |
-| ------------- | ------------- |  ------------- |  ------------- |  ------------- |
-| **Research and Preproduction** | etc |  $9/hr | 2 (16hrs) | $144 |
-| **Production** | etc | $18/hr | 5 (40hrs) | $720 |
-| **Subtotal** | - | - | - | **$864** |
+### Partial Importing
+| Task  | Rate | Estimated Working Days | Subtotal |
+| ------------- |  ------------- |  ------------- |  ------------- |
+| **Research and Preproduction** |  $9/hr | 2 (16hrs) | $144 |
+| **Production** | $18/hr | 5 (40hrs) | $720 |
+| **Subtotal** | - | - | **$864** |

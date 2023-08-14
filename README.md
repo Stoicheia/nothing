@@ -20,7 +20,7 @@ The aim is to extend the existing Aseprite-Unity asset pipeline so that Aseprite
 ## Stretch Goal: Partial Importing
 By updating only parts of mod files that correspond to parts of the Aseprite file that were actually updated, the mod creation process can be sped up significantly.
 
-## Plan
+## Notes
 ### Asset Creation
 - Objects that can only be created on the main thread (e.g. Texture2D) can be incrementally constructed using coroutines.
 - Load all relevant boss information (except perhaps audio) into memory at runtime, either during boss selection or during the loading screen (model after existing AseBank class (or straight up use the existing AseBank class)). The main thread should be able to play animations smoothly while loading.

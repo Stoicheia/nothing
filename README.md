@@ -26,12 +26,14 @@ By updating only parts of mod files that correspond to parts of the Aseprite fil
   - Save png to disk, then use UnityWebRequestTexture to create texture from disk. Brief testing shows this technique is very slow, but could be optimised if we rewrite some low-level functionality.
   - Use coroutines. The number of objects processed per frame should ideally scale to guarantee a stable framerate while minimising process time.
   - Some testing has shown that png operations are very expensive, but coroutines may have weird caveats to deal with. The goal is to either optimise png encoding/decoding from disk, or to elegantly work around the limitations of coroutines.
-- Load all relevant boss information (except perhaps audio) into memory at runtime, either during boss selection or during the loading screen (model after existing AseBank class (or straight up use the existing AseBank class)). The main thread should be able to play animations smoothly while loading.
-- Coroutines may be used if multithreading is truly impossible.
-- Look into UnityWebRequestTexture.GetTexture() (https://docs.unity3d.com/ScriptReference/Networking.UnityWebRequestTexture.GetTexture.html)
+- Load all relevant boss information (except perhaps audio) into memory at runtime, either during boss selection or during the loading screen (model after existing AseBank class (or straight up use the existing AseBank class)). The main thread should be able to play animations smoothly while loading, and display a loading bar that accurately tracks the progress of the import task.
+  - To this end, async operations should be async all the way down and pass progress data as granularly as possible. A gameobject can read off the progress of all ongoing tasks and coroutines to determine progress.
+- Coroutines may be used in any instances where multithreading is truly impossible or too slow.
+- UnityWebRequestTexture.GetTexture() is a fast operation, but is only compatible with .png files stored on the disk. An option is to rewrite this function to support bitmaps in memory, which I suspect would be much, much faster.
 
 ### Aseprite Workflow Optimisation
-- A dirty flag on Aseprite chunks/frames could somehow be set to determine which chunks/frames to regenerate, and which ones to simply read off the old AseFile object. Dirty flagging can be simulated via other means if the Aseprite file doesn't contain such information. (e.g. simply compare subarrays)
+- A dirty flag on Aseprite chunks/frames could somehow be set to determine which chunks/frames to regenerate, and which ones to simply read off the old AseFile object. Dirty flagging can be simulated via other means if the Aseprite file doesn't contain such information. (e.g. simply compare subarrays).
+- The game should detect if an aseprite project has not been changed at all since last import, and when an aseprite project is corrupt, missing, or structured in an unsupported way. This will allow the game to continuously integrate aseprite animation updates without user input.
 - Some continuous integration architecture so that remote (dropbox) changes are immediately reflected in the Unity editor/in the build (not sure how hard this is).
 
 ### Serialization

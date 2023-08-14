@@ -47,9 +47,9 @@ By updating only parts of mod files that correspond to parts of the Aseprite fil
 | Task | Rate | Estimated Working Days | Subtotal |
 | ------------- |  ------------- |  ------------- |  ------------- |
 | **Research and Preproduction** |  $9/hr | 3 (24hrs, completed) | $216 |
-| **Production**  | $18/hr | 13 (104hrs) | $1872 |
+| **Production**  | $18/hr | 14 (112hrs) | $2016 |
 | **ChatGPT Plus Subscription**  | $20/month | - | $20 |
-| **Subtotal**| - | - | **$2108** |
+| **Subtotal**| - | - | **$2252** |
 
 ### Partial Importing
 | Task  | Rate | Estimated Working Days | Subtotal |

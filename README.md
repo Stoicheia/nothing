@@ -24,7 +24,8 @@ By updating only parts of mod files that correspond to parts of the Aseprite fil
 ### Asset Creation
 - Objects that can only be created on the main thread (e.g. Texture2D) can be created async using one of these techniques:
   - Save png to disk, then use UnityWebRequestTexture to create texture from disk. Brief testing shows this technique is very slow, but could be optimised if we rewrite some low-level functionality.
-  - Use coroutines.
+  - Use coroutines. The number of objects processed per frame should ideally scale to guarantee a stable framerate while minimising process time.
+  - Some testing has shown that png operations are very expensive, but coroutines may have weird caveats to deal with. The goal is to either optimise png encoding/decoding from disk, or to elegantly work around the limitations of coroutines.
 - Load all relevant boss information (except perhaps audio) into memory at runtime, either during boss selection or during the loading screen (model after existing AseBank class (or straight up use the existing AseBank class)). The main thread should be able to play animations smoothly while loading.
 - Coroutines may be used if multithreading is truly impossible.
 - Look into UnityWebRequestTexture.GetTexture() (https://docs.unity3d.com/ScriptReference/Networking.UnityWebRequestTexture.GetTexture.html)

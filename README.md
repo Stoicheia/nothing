@@ -45,7 +45,10 @@ By updating only parts of mod files that correspond to parts of the Aseprite fil
 ### Optimisations
 - Texture2D creation operations should be minimised as much as possible. All draw/combine operations should act on color arrays until the final step.
 - The game should do its best to guess when to pre-load and release fighter data. Garbage collection should be called manually during non-core gameplay.
+- In the case of deciding between if some work should be done during the mod creation process or the mod loading process, ideally mod creation should do more work at the benefit of minimising mod loading times.
 
+### Exception Handling
+- Graceful exception handling is very important. This is easier said than done with async operations.
 
 ## Rates and Estimations
 ### Main Task

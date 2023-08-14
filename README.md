@@ -23,7 +23,7 @@ By updating only parts of mod files that correspond to parts of the Aseprite fil
 ## Plan
 ### Asset Creation
 - Objects that can only be created on the main thread (e.g. Texture2D) can be incrementally constructed using coroutines.
-- Load all relevant boss information (except perhaps audio) into memory at runtime, either during boss selection or during the loading screen (model after existing - - - AseBank class (or straight up use the existing AseBank class)). The main thread should be able to play animations smoothly while loading.
+- Load all relevant boss information (except perhaps audio) into memory at runtime, either during boss selection or during the loading screen (model after existing AseBank class (or straight up use the existing AseBank class)). The main thread should be able to play animations smoothly while loading.
 - Coroutines may be used if multithreading is truly impossible.
 - Look into UnityWebRequestTexture.GetTexture() (https://docs.unity3d.com/ScriptReference/Networking.UnityWebRequestTexture.GetTexture.html)
 

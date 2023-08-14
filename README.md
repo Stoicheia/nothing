@@ -20,8 +20,25 @@ The aim is to extend the existing Aseprite-Unity asset pipeline so that Aseprite
 ## Stretch Goal: Partial Importing
 By updating only parts of mod files that correspond to parts of the Aseprite file that were actually updated, the mod creation process can be sped up significantly.
 
-## Plan Document
-https://docs.google.com/document/d/1o0vrmomy3pfbtFl6g2VF1sUfjLHOEF5aT1rMsNhWL8w/edit#heading=h.semwu4p4dyis
+## Plan
+### Asset Creation
+- Objects that can only be created on the main thread (e.g. Texture2D) can be incrementally constructed using coroutines.
+- Load all relevant boss information (except perhaps audio) into memory at runtime, either during boss selection or during the loading screen (model after existing - - - AseBank class (or straight up use the existing AseBank class)). The main thread should be able to play animations smoothly while loading.
+- Coroutines may be used if multithreading is truly impossible.
+- Look into UnityWebRequestTexture.GetTexture() (https://docs.unity3d.com/ScriptReference/Networking.UnityWebRequestTexture.GetTexture.html)
+
+### Aseprite Workflow Optimisation
+- A dirty flag on Aseprite chunks/frames could somehow be set to determine which chunks/frames to regenerate, and which ones to simply read off the old AseFile object.
+- Some continuous integration architecture so that remote (dropbox) changes are immediately reflected in the Unity editor/in the build (not sure how hard this is).
+
+### Serialization
+- Use binary Odin Serializer to convert Aseprite files.
+- Place all serialized AseFile objects into a folder.
+- Compress the folder into a zip file, maybe do some extra steps to convert the zip file into a file with a custom extension?
+- To deserialize, reverse this process.
+
+
+
 
 ## Rates and Estimations
 ### Main Task

@@ -50,7 +50,7 @@ The core goal is to extend the existing Aseprite-Unity asset pipeline so that As
 | **ChatGPT Plus Subscription**  | $20/month | - | $20 |
 | **Subtotal** | - | - | **$3620** |
 
-### Stretch
+### Future
 | Task | Rate | Estimated Working Hours | Subtotal |
 | ------------- |  ------------- |  ------------- |  ------------- |
 | **Online Mod Browser**  | $20/hr | 10 + 40 | $1000 |

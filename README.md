@@ -45,10 +45,11 @@ The core goal is to extend the existing Aseprite-Unity asset pipeline so that As
 | ------------- |  ------------- |  ------------- |  ------------- |
 | **Research and Preproduction** | $20/hr | 40 | $800 |
 | **Completed Subtasks**  | $20/hr | 60 | $1200 |
+| **Optimisation Bonus** | - | - | $180 |
 | **Planned Subtasks**  | $20/hr | 60 | $1200 |
 | **Revisions, Testing, Support** | $20/hr | 40 | $800 |
 | **ChatGPT Plus Subscription**  | $20/month | - | $20 |
-| **Subtotal** | - | - | **$4020** |
+| **Subtotal** | - | - | **$4200** |
 
 ### Future
 | Task | Rate | Estimated Working Hours | Subtotal |

@@ -40,13 +40,13 @@ The core goal is to extend the existing Aseprite-Unity asset pipeline so that As
 
 ## Rates and Estimations
 
-### Main
-
 | Phase | Includes | Period |
 | ------------- |  ------------- |  ------------- |  
 | **Pre-contract** | Research and preproduction, completed subtasks | Aug 10 - Aug 29 | 
 | **Post-contract**  | Planned subtasks, revisions, testing, support | Aug 30 - ? |
 | **Post-post-contract** | Proposed future subtasks | ? - ? |
+
+### Main
 
 | Task | Rate | Estimated Working Hours | Subtotal |
 | ------------- |  ------------- |  ------------- |  ------------- |

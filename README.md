@@ -53,5 +53,5 @@ The core goal is to extend the existing Aseprite-Unity asset pipeline so that As
 ### Future
 | Task | Rate | Estimated Working Hours | Subtotal |
 | ------------- |  ------------- |  ------------- |  ------------- |
-| **Online Mod Browser**  | $20/hr | ? | ? |
-| **Continuous Integration Pipeline**  | $20/hr | ? | ? |
+| **Online Mod Browser**  | $20/hr | Discuss in future | Discuss in future |
+| **Continuous Integration Pipeline**  | $20/hr | Discuss in future | Discuss in future |

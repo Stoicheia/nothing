@@ -48,9 +48,7 @@ The general philosophy of dividing tasks into pre-contract tasks and post-contra
 | Phase | Includes | Period |
 | ------------- |  ------------- |  ------------- |  
 | **Pre-contract** | Research and preproduction, completed subtasks | Aug 10 - Aug 29 | 
-| **Post-contract**  | Planned subtasks, revisions, testing, support | Aug 30 - ? |
-| **Extras** | Proposed future subtasks | ? - ? |
-
+| **Post-contract + Extras**  | Planned subtasks, revisions, testing, support, future tasks | Aug 30 - ? |
 ### Main
 
 | Task | Rate | Estimated Working Hours | Subtotal |

@@ -30,7 +30,7 @@ The core goal is to extend the existing Aseprite-Unity asset pipeline so that As
 | **Mod Bundles** | As a natural extension of the animation mod system, characters should be represented by a single mod file that contains animation, sound and behaviour data. A single mod file could also contain multiple characters. |
 | **Adaptive Optimisation** |  Adapt the import process to different platforms and hardware specs. We aim to balance speed with asynchronicity; file size with serialization speed; memory usage with loading times, etc. |
 
-## Prospective Subtasks
+## Proposed Prospective Subtasks
 
 | Task | Aim |
 | ------------- |  ------------- | 

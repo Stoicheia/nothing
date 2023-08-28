@@ -21,7 +21,7 @@ The core goal is to extend the existing Aseprite-Unity asset pipeline so that As
 | ------------- |  ------------- | 
 | **Asynchronous Importer** |  Convert .ase files to in-game animations and metadata asynchronously at runtime. |
 | **Mod Creation/Loading**  | Serialize character animation data as a .adat file, and load .adat files into the game. Saving and loading are separate processes. |
-| **Optimisation** | Zoom zoom |
+| **Optimisation** | Fast and small. |
 
 ## Planned Subtasks
 

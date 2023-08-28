@@ -44,7 +44,7 @@ The core goal is to extend the existing Aseprite-Unity asset pipeline so that As
 | ------------- |  ------------- |  ------------- |  
 | **Pre-contract** | Research and preproduction, completed subtasks | Aug 10 - Aug 29 | 
 | **Post-contract**  | Planned subtasks, revisions, testing, support | Aug 30 - ? |
-| **Post-post-contract** | Proposed future subtasks | ? - ? |
+| **Extras** | Proposed future subtasks | ? - ? |
 
 ### Main
 

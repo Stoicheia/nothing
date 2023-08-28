@@ -22,7 +22,7 @@ The core goal is to extend the existing Aseprite-Unity asset pipeline so that As
 | **Asynchronous Importer** |  Convert .ase files to in-game animations and metadata asynchronously at runtime. |
 | **Mod Creation/Loading**  | Serialize character animation data as a .adat file, and load .adat files into the game. Saving and loading are separate processes. |
 
-## Future Subtasks
+## Planned Subtasks
 
 | Task | Aim |
 | ------------- |  ------------- | 
@@ -30,7 +30,7 @@ The core goal is to extend the existing Aseprite-Unity asset pipeline so that As
 | **Mod Bundles** | As a natural extension of the animation mod system, characters should be represented by a single mod file that contains animation, sound and behaviour data. A single mod file could also contain multiple characters. |
 | **Adaptive Optimisation** |  Adapt the import process to different platforms and hardware specs. We aim to balance speed with asynchronicity; file size with serialization speed; memory usage with loading times, etc. |
 
-## Proposed Prospective Subtasks
+## Proposed Future Subtasks
 
 | Task | Aim |
 | ------------- |  ------------- | 
@@ -45,7 +45,7 @@ The core goal is to extend the existing Aseprite-Unity asset pipeline so that As
 | ------------- |  ------------- |  ------------- |  ------------- |
 | **Research and Preproduction** | $20/hr | 30 | $600 |
 | **Completed Subtasks**  | $20/hr | 60 | $1200 |
-| **Future Subtasks**  | $20/hr | 60 | $1200 |
+| **Planned Subtasks**  | $20/hr | 60 | $1200 |
 | **Revisions, Testing, Support** | $20/hr | 30 | $600 |
 | **ChatGPT Plus Subscription**  | $20/month | - | $20 |
 | **Subtotal** | - | - | **$3620** |

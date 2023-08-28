@@ -34,7 +34,6 @@ The general philosophy of dividing tasks into pre-contract tasks and post-contra
 | **Refactoring, Integration, Error-handling** | Essentially, have the system be in a state that is stable, extensible, and usable by developers and players. |
 | **Mod Bundles** | As a natural extension of the animation mod system, characters should be represented by a single mod file that contains animation, sound and behaviour data. A single mod file could also contain multiple characters. |
 | **Adaptive Optimisation** |  Adapt the import process to different platforms and hardware specs. We aim to balance speed with asynchronicity; file size with serialization speed; memory usage with loading times, etc. |
-| **Research for Future Subtasks** | - |
 
 ### Proposed Future Subtasks
 
@@ -58,7 +57,7 @@ The general philosophy of dividing tasks into pre-contract tasks and post-contra
 | **Completed Subtasks**  | $20/hr | 60 | $1200 |
 | **Optimisation Bonus** | - | - | $400 |
 | **Planned Subtasks**  | $20/hr | 60 | $1200 |
-| **Revisions, Testing, Support** | $20/hr | 40 | $800 |
+| **Research for Future Subtasks, Revisions, Testing, Support** | $20/hr | 40 | $800 |
 | **ChatGPT Plus Subscription**  | $20/month | - | $20 |
 | **Subtotal** | - | - | **$4420** |
 

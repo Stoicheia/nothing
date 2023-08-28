@@ -15,7 +15,11 @@ The core goal is to extend the existing Aseprite-Unity asset pipeline so that As
 8. Generated in-game animation data is stored in memory, and memory usage should be well optimised.
 9. Import times should be well optimised.
 
-## Completed Subtasks
+## Subtasks
+
+The general philosophy of dividing tasks into pre-contract tasks and post-contract tasks is the following: Completed pre-contract tasks had a high degree of uncertainty, in that the technical possibilities and limitations were not well known. The project is now in a state where the core technical parts are in place, and there is a much clearer path forward for the remaining subtasks.
+
+### Completed Subtasks
 
 | Task | Aim |
 | ------------- |  ------------- | 
@@ -23,7 +27,7 @@ The core goal is to extend the existing Aseprite-Unity asset pipeline so that As
 | **Mod Creation/Loading**  | Serialize character animation data as a .adat file, and load .adat files into the game. Saving and loading are separate processes. |
 | **Optimisation** | Fast and small. |
 
-## Planned Subtasks
+### Planned Subtasks
 
 | Task | Aim |
 | ------------- |  ------------- | 
@@ -31,7 +35,7 @@ The core goal is to extend the existing Aseprite-Unity asset pipeline so that As
 | **Mod Bundles** | As a natural extension of the animation mod system, characters should be represented by a single mod file that contains animation, sound and behaviour data. A single mod file could also contain multiple characters. |
 | **Adaptive Optimisation** |  Adapt the import process to different platforms and hardware specs. We aim to balance speed with asynchronicity; file size with serialization speed; memory usage with loading times, etc. |
 
-## Proposed Future Subtasks
+### Proposed Future Subtasks
 
 | Task | Aim |
 | ------------- |  ------------- | 

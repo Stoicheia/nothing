@@ -59,7 +59,7 @@ The general philosophy of dividing tasks into pre-contract tasks and post-contra
 | **Planned Subtasks**  | $20/hr | 60 | $1200 |
 | **Research for Future Subtasks, Revisions, Testing, Support** | $20/hr | 40 | $800 |
 | **ChatGPT Plus Subscription**  | $20/month | - | $20 |
-| **Subtotal** | - | - | **$4420** |
+| **Total** | - | - | **$4420** |
 
 ### Future
 | Task | Rate | Estimated Working Hours | Subtotal |

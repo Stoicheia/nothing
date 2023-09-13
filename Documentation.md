@@ -2,15 +2,17 @@
 # Runtime Importer Documentation
 
 ## Import Codes
-1:   Create mod file from source files without caching; save to persistent data path.
-11:  Create mod file from source files without caching; export to external mod directory; save to persistent data path.
-100: Load directly from source files.
-101: Load directly from source files; save to persistent data path.
-111: Load directly from source files; export to external mod directory; save to persistent data path.
-200: Load from persistent data path.
-210: Load from persistent data path; export to external mod directory.
-301: Load from external mod directory; save to persistent data path.
-999: Full process (debug)"
+
+| Code | Description |
+| ------------- |  ------------- | 
+|1|Create mod file from source files without caching; save to persistent data path.|
+|11|Create mod file from source files without caching; export to external mod directory; save to persistent data path.|
+|100|Load directly from source files.|
+|101|Load directly from source files; save to persistent data path.|
+|200|Load from persistent data path.|
+|210|Load from persistent data path; export to external mod directory.|
+|301|Load from external mod directory; save to persistent data path.|
+|999|Full process (debug).|
 
 ## Project Goals
 

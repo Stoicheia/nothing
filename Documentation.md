@@ -27,10 +27,10 @@
 
 - Mod Bundle File
   - Character Files
-   - Ase Data Bundles
-    - Ase Files
-  - Plugin Files
-  - FMOD Files
+     - Ase Data Bundles
+        - Ase Files
+    - Plugin Files
+    - FMOD Files
 
 
 ## Project Goals

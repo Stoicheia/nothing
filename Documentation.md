@@ -25,6 +25,8 @@
 
 ## File Structure Overview
 
+Plugin and audio files are all loaded all the time. Character files are loaded/unloaded as needed.
+
 - Mod Bundle File
   - Character Files
      - Ase Data Bundles

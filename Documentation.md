@@ -14,6 +14,25 @@
 |301|Load from external mod directory; save to persistent data path.|
 |999|Full process (debug).|
 
+## File Types
+
+| Extension | Description |
+| ------------- | ------------- | 
+| .bdat | The mod file that contains all data for all characters in a bundle, including audio and plugin data. |
+| .cdat | Character file that contains character animation data. |
+| .pdat | For plugins. |
+| *.bank* | FMOD bank file. |
+
+## File Structure Overview
+
+- Mod Bundle File
+ - Character Files
+  - Ase Data Bundles
+   - Ase Files
+ - Plugin Files
+ - FMOD Files
+
+
 ## Project Goals
 
 1. The importer works in a standalone build of *Big Boy Boxing* at runtime, as well as in the Unity editor.

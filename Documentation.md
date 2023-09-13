@@ -29,8 +29,8 @@
   - Character Files
      - Ase Data Bundles
         - Ase Files
-    - Plugin Files
-    - FMOD Files
+  - Plugin Files
+  - FMOD Files
 
 
 ## Project Goals

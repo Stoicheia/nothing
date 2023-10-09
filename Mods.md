@@ -37,7 +37,7 @@ Steam-related activities might be better left to when we have to do Steam API wo
 
 | Phase | Includes | Period |
 | ------------- |  ------------- |  ------------- |  
-| **Contract** | Aforementioned Subtasks | Oct 9 - ??? (Nov 20 at latest) | 
+| **Contract** | Aforementioned Subtasks | Oct 9 - TBD | 
 ### Main
 
 | Task | Rate | Estimated Working Hours | Subtotal |

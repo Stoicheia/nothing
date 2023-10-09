@@ -25,6 +25,8 @@ The goal is to create a framework to create and share mods for Big Boy Boxing. M
 
 ### Extra Subtasks
 
+Steam-related activities might be better left to when we have to do Steam API work for other things, like achievements.
+
 | Task | Aim |
 | ------------- |  ------------- | 
 | **Steam Stuff** | When the time is right, I will set up the game's Steam Workshop page for uploading/downloading mods via Steam. This will probably go hand-in-hand with other future Steam API related tasks, like achievements. |

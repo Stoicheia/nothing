@@ -45,8 +45,8 @@ Steam-related activities might be better left to when we have to do Steam API wo
 | **Mod Bundles, Mod Browser UI**  | $20/hr | 100 | $2000 |
 | **Mod.io Integration, Authentication**  | $20/hr | 80 | $1600 |
 | **Research for Future Subtasks, Revisions, Testing, Support** | $20/hr | 40 | $800 |
-| **ChatGPT Plus Subscription**  | $20/month | - | $20 |
+| **ChatGPT Plus Subscription**  | $20/month | September and October | $40 |
 | **(Extra) Steam Stuff, Mod Approval** | $20/hr | 40 | $800 |
 | **(Extra) Tutorial Production** | $20/hr | 16 | $320 |
-| **Total** | - | - | **$4420 (Core) - $5540 (Extra)** |
+| **Total** | - | - | **$4440 (Core) - $5560 (Extra)** |
 

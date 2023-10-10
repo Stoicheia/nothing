@@ -37,16 +37,46 @@ Steam-related activities might be better left to when we have to do Steam API wo
 
 | Phase | Includes | Period |
 | ------------- |  ------------- |  ------------- |  
-| **Contract** | Aforementioned Subtasks | Oct 9 - TBD | 
-### Main
+| **Phase 1** | Mod Bundling and UI | Oct 11 - Oct 18 |
+| **Phase 2** | Mod.io Integration | Oct 21 - Nov 6(?) | 
+| **Phase 3** | Future Stuff | ??? - ??? | 
+
+### Phase 1
+Phase 1 includes the local mod bundling system, as well as a UI to enable/disable mods.
 
 | Task | Rate | Estimated Working Hours | Subtotal |
 | ------------- |  ------------- |  ------------- |  ------------- |
 | **Mod Bundles, Mod Browser UI**  | $20/hr | 60 (Completed) + 60 (Todo) | $2400 |
+| **Revisions, Testing, Support** | $20/hr | 20 | $400 |
+| **ChatGPT Plus Subscription**  | $20/month | September (Completed) | $20 |
+| **Total** | - | - | **$2820** |
+
+### Phase 2
+Phase 2 consists of the mod.io integration, which includes being able to download and install mods hosted on mod.io, player authentication, UI linked to mod.io, and setting up the groundwork to integrate with Steam Workshop in the future.
+
+| Task | Rate | Estimated Working Hours | Subtotal |
+| ------------- |  ------------- |  ------------- |  ------------- |
 | **Mod.io Integration, Authentication**  | $20/hr | 80 | $1600 |
-| **Revisions, Testing, Support** | $20/hr | 40 | $800 |
+| **Revisions, Testing, Support** | $20/hr | 20 | $400 |
+| **ChatGPT Plus Subscription**  | $20/month | October | $20 |
+| **Total** | - | - | **$2020** |
+
+### Phase 3 (Future)
+Phase 3 consists of Steam Workshop integration, creating mod tutorials, and consulting with modders to get the scripting workflow nailed down.
+
+| Task | Rate | Estimated Working Hours | Subtotal |
+| ------------- |  ------------- |  ------------- |  ------------- |
+| **Steam Stuff, Mod Approval** | TBD | TBD | TBD |
+| **Tutorial Production** | TBD | TBD | TBD |
+| **Others** | TBD | TBD | TBD |
+| **Total** | - | - | **TBD** |
+
+### Phase 1 + Phase 2 Total
+| Task | Rate | Estimated Working Hours | Subtotal |
+| ------------- |  ------------- |  ------------- |  ------------- |
+| **Mod Bundles, Mod Browser UI**  | $20/hr | 60 (Completed) + 60 (Todo) | $2400 |
+| **Mod.io Integration, Authentication**  | $20/hr | 80 | $1600 |
+| **Revisions, Testing, Support** | $20/hr | 20 + 20 | $800 |
 | **ChatGPT Plus Subscription**  | $20/month | September and October | $40 |
-| **(Extra) Steam Stuff, Mod Approval** | $20/hr | 40 | $800 |
-| **(Extra) Tutorial Production** | $20/hr | 16 | $320 |
-| **Total** | - | - | **$4840 (Core) - $5960 (Extra)** |
+| **Total** | - | - | **$4840** |
 

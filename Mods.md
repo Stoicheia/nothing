@@ -14,7 +14,7 @@ The goal is to create a framework to create and share mods for Big Boy Boxing. M
 6. An in-game mod browser will be used to browse mods hosted on mod.io, which is used for games hosted outside of steam (e.g. Nintendo Switch).
 7. When the game is live, mod uploads and installs will be tied to a particular game-service account (e.g. Steam, Nintendo, Xbox) and authenticated when interacting with the online mod ecosystem.
 
-### Core Subtasks
+### Core Subtasks (Phase 1 - Phase 2)
 
 | Task | Aim |
 | ------------- |  ------------- | 
@@ -23,7 +23,7 @@ The goal is to create a framework to create and share mods for Big Boy Boxing. M
 | **Mod.io Integration** | The aforementioned UI should interface with a mod.io server that hosts mods uploaded by players. Mods will be downloaded directly from the mod.io website, and installed into a pre-determined mod directory from which the game will read at runtime. |
 | **Test Player Authentication** | Players' installed mods will be tied to a certain game service account. Steam(?) will be used to test player authentication. |
 
-### Extra Subtasks
+### Extra Subtasks (Phase 3)
 
 Steam-related activities might be better left to when we have to do Steam API work for other things, like achievements.
 

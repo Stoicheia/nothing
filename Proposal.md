@@ -6,12 +6,11 @@ A wide range of tasks, revolving around a rough central theme of making accessin
 
 
 ## List of Tasks
-### Before Writing this Document (Oct 22 - Nov 13)
+### Before Writing this Document (Oct 25 - Nov 13)
 | **Task** | **Description** |
 | ------------- | ------------- |
-| Universal File System / Drag and Drop Mods | Double click on mods, or drag them into the game to install them. |
-| Mod Preprocessing and Custom Boss Icons | When a mod is installed, certain prerequisite animation banks and scripts are automatically loaded in via TransitionManager. These requisites can be unloaded when the mod is toggled on/off. |
 | DATA Studio | The DATA Studio system, which manages save files, settings, and databases. |
+| Mod Preprocessing and Custom Boss Icons | When a mod is installed, certain prerequisite animation banks and scripts are automatically loaded in via TransitionManager. These requisites can be unloaded when the mod is toggled on/off. |
 | Addressables Management and Debugging | Addressables can be created/built automatically in-editor (e.g. _Ase/.. _Lua/.. _FMOD/..) and are correctly initialised/built when the game is built. |
 | Lua Packaging | Use Regex to transpile Lua scripts, allowing for custom syntax like `$"stringLiteral {variableName}"`. Asset dependencies defined in Lua are automatically packaged into a LuaScriptAsset scriptable object and made into an addressable. Raw Lua scripts can also be used in fights, being packaged when the fight is being loaded. |
 | FMOD Packaging | Similar to above, but with FMOD banks. FMODBankAssets contain bank data which can be loaded via FMOD's RuntimeManager. |
@@ -30,9 +29,9 @@ A wide range of tasks, revolving around a rough central theme of making accessin
 ## Rates
 | **Task** | **Rate** | **Duration** | **Subtotal** |
 | ------------- | ------------- | ------------- | ------------- |
-| All Aforementioned Tasks, Revision, Support | $20/hr | 3.5 weeks (17.5 days or 140 hours) | $2800 |
+| All Aforementioned Tasks, Revision, Support | $20/hr | 4 weeks (20 days or 160 hours) | $3200 |
 | ChatGPT Subscription | $20/month | October and November | $40 |
-| **Total** | - | - | **$2840** |
+| **Total** | - | - | **$3240** |
 
 ## Extra: GameEvent Syntax
 ```

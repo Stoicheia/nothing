@@ -6,7 +6,7 @@ A wide range of tasks, revolving around a rough central theme of making accessin
 
 
 ## List of Tasks
-### Before Writing this Document (Oct 25 - Nov 13)
+### Before Writing this Document (Oct 24 - Nov 13)
 | **Task** | **Description** |
 | ------------- | ------------- |
 | DATA Studio | The DATA Studio system, which manages save files, settings, and databases. |

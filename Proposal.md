@@ -36,11 +36,17 @@ A wide range of tasks, revolving around a rough central theme of making accessin
 ## Extra: GameEvent Syntax
 `
 -- To broadcast an event that contains special, modifiable data, use:
+
 Player.BroadcastEvent("ON_CAST_FIREBALL", function(x) 
+
   local damage = x.Get("damage")
+  
   HitEnemy(damage)
+  
 end, {
+
   damage = 100
+  
 })
 -- To *just* broadcast an event (without anything fancy), use:
 Player.InvokeByString("ON_RAISE_BANNER")

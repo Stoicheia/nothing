@@ -33,4 +33,9 @@ A wide range of tasks, revolving around a rough central theme of making accessin
 | ChatGPT Subscription | $20/month | October and November | $40 |
 | **Total** | - | - | **$2840** |
 
+## Extra: GameEvent Syntax
+`
+
+`
+
 

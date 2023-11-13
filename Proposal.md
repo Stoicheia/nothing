@@ -4,9 +4,10 @@
 ## Overview
 A wide range of tasks, revolving around a rough central theme of making accessing various types of data (Lua, Ase, FMOD, mods) more intuitive for designers.
 
+
 ## List of Tasks
 | **Task** | **Description** |
-|-----------|-----------------------|
+| ------------- | ------------- |
 | Mod Preprocessing and Custom Boss Icons | When a mod is installed, certain prerequisite animation banks and scripts are automatically loaded in via TransitionManager. These requisites can be unloaded when the mod is toggled on/off. |
 | DATA Studio | The DATA Studio system, which manages save files, settings, and databases. |
 | Addressables | Addressables can be created/built automatically in-editor (e.g. _Ase/.. _Lua/.. _FMOD/..) and are correctly initialised/built when the game is built. |

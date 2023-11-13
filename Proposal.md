@@ -6,9 +6,10 @@ A wide range of tasks, revolving around a rough central theme of making accessin
 
 
 ## List of Tasks
-### Before Writing this Document (Oct 27 - Nov 13)
+### Before Writing this Document (Oct 22 - Nov 13)
 | **Task** | **Description** |
 | ------------- | ------------- |
+| Universal File System / Drag and Drop Mods | Double click on mods, or drag them into the game to install them. |
 | Mod Preprocessing and Custom Boss Icons | When a mod is installed, certain prerequisite animation banks and scripts are automatically loaded in via TransitionManager. These requisites can be unloaded when the mod is toggled on/off. |
 | DATA Studio | The DATA Studio system, which manages save files, settings, and databases. |
 | Addressables Management and Debugging | Addressables can be created/built automatically in-editor (e.g. _Ase/.. _Lua/.. _FMOD/..) and are correctly initialised/built when the game is built. |

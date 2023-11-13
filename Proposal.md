@@ -34,7 +34,7 @@ A wide range of tasks, revolving around a rough central theme of making accessin
 | **Total** | - | - | **$2840** |
 
 ## Extra: GameEvent Syntax
-`
+```
 -- To broadcast an event that contains special, modifiable data, use:
 
 Player.BroadcastEvent("ON_CAST_FIREBALL", function(x) 
@@ -54,6 +54,6 @@ Player.InvokeByString("ON_RAISE_BANNER")
 Player.Listen("ON_CAST_FIREBALL", -100, function(x)
     x.Set("damage", 1000)
 end, "AmplifyFireball")
-`
+```
 
 

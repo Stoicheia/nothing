@@ -6,6 +6,7 @@ A wide range of tasks, revolving around a rough central theme of making accessin
 
 
 ## List of Tasks
+### Before Writing this Document
 | **Task** | **Description** |
 | ------------- | ------------- |
 | Mod Preprocessing and Custom Boss Icons | When a mod is installed, certain prerequisite animation banks and scripts are automatically loaded in via TransitionManager. These requisites can be unloaded when the mod is toggled on/off. |
@@ -17,4 +18,11 @@ A wide range of tasks, revolving around a rough central theme of making accessin
 | General Build Debugging | Made the NewFight scene work in the built game again to facilitate testing. |
 | Obfuscator Test | Conclusion: the obfuscator does its job, but obfuscating some assemblies breaks the game. Possibly due to our use of reflection in some scripts. |
 | Other Minor Tasks | Including: Making async/sync variants of various file reading/serialization functions, converting Lists to HashSets when appropriate, fixing some "smart" string processors, bland andra. |
+### After Writing this Document
+| **Task** | **Description** |
+| ------------- | ------------- |
+| Revisiting DATA Studio | Find and implement potential improvements to DATA Studio. Including - handling errors, smart detection of serialization method, treatment of backup files, encryption solutions, make sure compression/decompression applied only when appropriate. |
+| Revisiting Pixel Perfection | See if I can mix pixel-perfect and non-pixel-perfect graphics. In particular, text should be non-pixel-perfect. |
+| Revisiting Event System | Look at recent applications of Lua event system; give examples of syntax for broadcasting/listening to/modifying GameEvents. |
+| Other Minor Tasks | Including: Use SafeCall in place of Call for Lua functions, identify missed merge errors, look at IOStudio briefly to assess future implementation of on-screen keyboard and touch screen support. |
 

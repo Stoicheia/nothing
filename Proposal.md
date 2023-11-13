@@ -29,7 +29,7 @@ A wide range of tasks, revolving around a rough central theme of making accessin
 ## Rates
 | **Task** | **Rate** | **Duration** | **Subtotal** |
 | ------------- | ------------- | ------------- | ------------- |
-| All Aforementioned Tasks, Revision, Support | $20/hr | Oct 24 - Nov 22 (20 working days or 160 hours) | $3200 |
+| All Aforementioned Tasks, Revision, Support | $20/hr | Oct 24 - Nov 21 (20 working days or 160 hours) | $3200 |
 | ChatGPT Subscription | $20/month | October and November | $40 |
 | **Total** | - | - | **$3240** |
 

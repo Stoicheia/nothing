@@ -29,7 +29,7 @@ A wide range of tasks, revolving around a rough central theme of making accessin
 ## Rates
 | **Task** | **Rate** | **Duration** | **Subtotal** |
 | ------------- | ------------- | ------------- | ------------- |
-| All Aforementioned Tasks | $20/hr | 3.5 Weeks (17.5 Days or 140 Hours) | $2800 |
+| All Aforementioned Tasks | $20/hr | 3.5 weeks (17.5 days or 140 hours) | $2800 |
 | ChatGPT Subscription | $20/month | October and November | $40 |
 | **Total** | - | - | **$2840** |
 

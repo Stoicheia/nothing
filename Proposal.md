@@ -26,3 +26,11 @@ A wide range of tasks, revolving around a rough central theme of making accessin
 | Revisiting Event System | Look at recent applications of Lua event system; give examples of syntax for broadcasting/listening to/modifying GameEvents. |
 | Other Minor Tasks | Including: Use SafeCall in place of Call for Lua functions, identify missed merge errors, look at IOStudio briefly to assess future implementation of on-screen keyboard and touch screen support. |
 
+## Rates
+| **Task** | **Rate** | **Duration** | **Subtotal** |
+| ------------- | ------------- | ------------- |
+| All Aforementioned Tasks | $20/hr | 3.5 Weeks | $2800 |
+| ChatGPT Subscription | $20/month | October and November | $40 |
+| **Total** | - | - | $2840 |
+
+

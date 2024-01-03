@@ -27,6 +27,6 @@ Various in-person tasks centered around rewriting the gameplay scripting system 
 
 | Task | Rate | Estimated Working Hours | Subtotal |
 | ------------- |  ------------- |  ------------- |  ------------- |
-| **Research and Preproduction** | By Negotiation | By Negotiation | $2860 |
+| **Research and Preproduction** | (By Negotiation) | (By Negotiation) | $2860 |
 | **ChatGPT Plus Subscription**  | $20/month | 2 Months | $40 |
 | **Total** | - | - | **$2900** |

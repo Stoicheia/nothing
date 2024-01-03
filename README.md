@@ -2,7 +2,7 @@
 # Big Boy Boxing Programming Tasks for December 5 to December 31
 
 ## Overview
-Various in-person tasks centered around rewriting the gameplay scripting system (Moonsharp/Lua) to facilitate a better game design workflow.
+Various in-person tasks centered around rewriting the gameplay scripting system (Moonsharp/Lua) to facilitate a better game design workflow. Completed in the period December 5 to December 31.
 
 ## Summary of Tasks
 

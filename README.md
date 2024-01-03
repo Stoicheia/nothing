@@ -24,7 +24,7 @@ Various in-person tasks centered around rewriting the gameplay scripting system 
 | **General Debugging, Optimisation, Refactoring** | General debugging, optimisation, and refactoring as needed. |
 
 ## Rates and Estimations
-
+Amounts in USD.
 | Task | Rate | Estimated Working Hours | Subtotal |
 | ------------- |  ------------- |  ------------- |  ------------- |
 | **Research and Preproduction** | (By Negotiation) | (By Negotiation) | $2860 |
